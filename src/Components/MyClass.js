@@ -1,13 +1,14 @@
 import React from "react";
 
-function Date({todayDate}){
+function MyClass({myInfo}){
+
     return(
         <>
             <h1>
-                Today is {todayDate}
+                Hello  {myInfo}
             </h1>
         </>
     )
 }
 
-export default Date
+export default MyClass

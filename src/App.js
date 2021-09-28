@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Date from './Components/Date';
+import MyClass from './Components/MyClass';
 
 function App() {
   return (
     <div className="App">
-      <Date todayDate="28 September 2021"/>
+      <MyClass myInfo="I am learning BootCamp 2020"/>
     </div>
   );
 }
